@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+#sidebar {
+  width: 25%;
+  background: #eee;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#sidebar h3 {
+  margin-top: 0;
+}
+
+#films {
+  list-style: none;
+  padding: 0;
+}
+
+#films li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#films li:hover {
+  background: #ddd;
+}
+
+#films li.sold-out {
+  color: red;
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+#movie-details {
+  width: 70%;
+  margin-left: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#movie-details img {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+#buy-ticket {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#buy-ticket:disabled {
+  background: #888;
+  cursor: not-allowed;
+}

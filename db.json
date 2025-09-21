@@ -1,0 +1,54 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "The Giant Gila Monster",
+      "runtime": 108,
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "poster": "https://i.imgur.com/3R0bUJF.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Manos: The Hands of Fate",
+      "runtime": 118,
+      "capacity": 50,
+      "showtime": "06:45PM",
+      "tickets_sold": 44,
+      "description": "A family gets lost on the road and stumbles upon a hidden cult led by the evil Master and his servant Torgo.",
+      "poster": "https://i.imgur.com/fd8LCqo.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Time Chasers",
+      "runtime": 93,
+      "capacity": 40,
+      "showtime": "07:30PM",
+      "tickets_sold": 12,
+      "description": "An inventor builds a time machine using a computer and a plane, only to find his actions have grave consequences.",
+      "poster": "https://i.imgur.com/4iY0m1W.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Santa Claus Conquers the Martians",
+      "runtime": 96,
+      "capacity": 40,
+      "showtime": "08:30PM",
+      "tickets_sold": 33,
+      "description": "Martians kidnap Santa Claus because there is nobody on Mars to give their children presents.",
+      "poster": "https://i.imgur.com/uhfJdCt.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Plan 9 from Outer Space",
+      "runtime": 98,
+      "capacity": 50,
+      "showtime": "10:00PM",
+      "tickets_sold": 41,
+      "description": "Aliens resurrect the dead to stop humans from creating a doomsday weapon that could destroy the universe.",
+      "poster": "https://i.imgur.com/1SyBMQC.jpg"
+    }
+  ]
+}
